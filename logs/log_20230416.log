@@ -10,3 +10,5 @@
 [2023-04-16 21:43:38,938] 	INFO 	68 	day_data.py 	<module>() 	Day Data Ended
 [2023-04-16 21:45:48,630] 	INFO 	26 	day_data.py 	<module>() 	Day Data Started
 [2023-04-16 21:45:51,134] 	INFO 	68 	day_data.py 	<module>() 	Day Data Ended
+[2023-04-16 21:55:54,592] 	INFO 	36 	pair_data.py 	<module>() 	Pair Data Started
+[2023-04-16 21:56:10,444] 	INFO 	98 	pair_data.py 	<module>() 	Pair Data Ended
