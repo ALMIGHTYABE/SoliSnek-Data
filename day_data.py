@@ -34,7 +34,7 @@ try:
     for i in itertools.count(0, 100):
         day_data_query["variables"]["skip"] = i
         response = requests.post(url=subgraph, json=day_data_query)
-        data = response.json()["data"]["dayDatas"]
+        data = response.json()["data"]["uniswapDayDatas"]
 
         # Checking if empty data
         if data == []:
