@@ -1,5 +1,5 @@
 query:
-  subgraph: https://subgraph.solisnek.finance/subgraphs/name/solisnek-finance/solisnek-avalanche/graphql
+  subgraph: https://subgraph.solisnek.finance/subgraphs/name/solisnek-finance/solisnek-avalanche
   id_data_query: {"operationName": "pairs", "variables": {"skip": 0}, "query": "query pairs($skip: Int!) {\n  pairs(skip: $skip) {\n    id\n    __typename\n  }\n}"}
 
 
