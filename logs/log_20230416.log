@@ -8,3 +8,5 @@
 [2023-04-16 21:40:39,907] 	ERROR 	70 	day_data.py 	<module>() 	Error occurred during Day Data process. Error: 'dayDatas'
 [2023-04-16 21:43:36,253] 	INFO 	26 	day_data.py 	<module>() 	Day Data Started
 [2023-04-16 21:43:38,938] 	INFO 	68 	day_data.py 	<module>() 	Day Data Ended
+[2023-04-16 21:45:48,630] 	INFO 	26 	day_data.py 	<module>() 	Day Data Started
+[2023-04-16 21:45:51,134] 	INFO 	68 	day_data.py 	<module>() 	Day Data Ended
