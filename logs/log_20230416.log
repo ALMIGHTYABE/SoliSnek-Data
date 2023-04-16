@@ -1,2 +1,4 @@
 [2023-04-16 21:06:37,701] 	INFO 	23 	id_data.py 	<module>() 	ID Data Started
 [2023-04-16 21:06:38,011] 	ERROR 	76 	id_data.py 	<module>() 	Error occurred during ID Data process. Error: Expecting value: line 1 column 1 (char 0)
+[2023-04-16 21:08:12,005] 	INFO 	23 	id_data.py 	<module>() 	ID Data Started
+[2023-04-16 21:08:12,490] 	ERROR 	76 	id_data.py 	<module>() 	Error occurred during ID Data process. Error: Expecting value: line 1 column 1 (char 0)
