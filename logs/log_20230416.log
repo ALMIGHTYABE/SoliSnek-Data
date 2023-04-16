@@ -4,3 +4,5 @@
 [2023-04-16 21:08:12,490] 	ERROR 	76 	id_data.py 	<module>() 	Error occurred during ID Data process. Error: Expecting value: line 1 column 1 (char 0)
 [2023-04-16 21:13:44,008] 	INFO 	23 	id_data.py 	<module>() 	ID Data Started
 [2023-04-16 21:13:51,521] 	INFO 	74 	id_data.py 	<module>() 	ID Data Ended
+[2023-04-16 21:40:39,487] 	INFO 	26 	day_data.py 	<module>() 	Day Data Started
+[2023-04-16 21:40:39,907] 	ERROR 	70 	day_data.py 	<module>() 	Error occurred during Day Data process. Error: 'dayDatas'
