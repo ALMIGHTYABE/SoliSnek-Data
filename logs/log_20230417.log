@@ -34,3 +34,5 @@
 [2023-04-17 16:27:05,240] 	INFO 	68 	day_data.py 	<module>() 	Day Data Ended
 [2023-04-17 16:28:46,884] 	INFO 	26 	day_data.py 	<module>() 	Day Data Started
 [2023-04-17 16:28:49,205] 	INFO 	68 	day_data.py 	<module>() 	Day Data Ended
+[2023-04-17 17:09:13,685] 	INFO 	23 	id_data.py 	<module>() 	ID Data Started
+[2023-04-17 17:09:21,583] 	INFO 	74 	id_data.py 	<module>() 	ID Data Ended
