@@ -1,8 +1,8 @@
 query:
   subgraph: https://subgraph.solisnek.finance/subgraphs/name/solisnek-finance/solisnek-avalanche
   id_data_query: {"operationName": "pairs", "variables": {"skip": 0}, "query": "query pairs($skip: Int!) {\n  pairs(skip: $skip) {\n    id\n    __typename\n  }\n}"}
-  day_data_query: {"operationName": "uniswapDayDatas", "variables": {"startTime": 1672876800, "skip": 0}, "query": "query uniswapDayDatas($startTime: Int!, $skip: Int!) {\n  uniswapDayDatas(skip: $skip, where: {date_gt: $startTime}, orderBy: date, orderDirection: asc) {\n    id\n    date\n    totalVolumeUSD\n    dailyVolumeUSD\n    dailyVolumeETH\n    totalLiquidityUSD\n    totalLiquidityETH\n    __typename\n  }\n}\n"}
-  pair_data_query: {"operationName":"pairDayDatas", "variables": {"startTime": 1672876800, "pairAddress":"0", "skip":0}, "query": "query pairDayDatas($startTime: Int!, $pairAddress: Bytes!, $skip: Int!) {\n  pairDayDatas(skip: $skip, orderBy: date, orderDirection: asc, where: {date_gt: $startTime, pairAddress: $pairAddress}) {\n    id\n    date\n    dailyVolumeToken0\n    dailyVolumeToken1\n    dailyVolumeUSD\n    reserveUSD\n    __typename\n  }\n}"}
+  day_data_query: {"operationName": "uniswapDayDatas", "variables": {"startTime": 1681300800, "skip": 0}, "query": "query uniswapDayDatas($startTime: Int!, $skip: Int!) {\n  uniswapDayDatas(skip: $skip, where: {date_gt: $startTime}, orderBy: date, orderDirection: asc) {\n    id\n    date\n    totalVolumeUSD\n    dailyVolumeUSD\n    dailyVolumeETH\n    totalLiquidityUSD\n    totalLiquidityETH\n    __typename\n  }\n}\n"}
+  pair_data_query: {"operationName":"pairDayDatas", "variables": {"startTime": 1681300800, "pairAddress":"0", "skip":0}, "query": "query pairDayDatas($startTime: Int!, $pairAddress: Bytes!, $skip: Int!) {\n  pairDayDatas(skip: $skip, orderBy: date, orderDirection: asc, where: {date_gt: $startTime, pairAddress: $pairAddress}) {\n    id\n    date\n    dailyVolumeToken0\n    dailyVolumeToken1\n    dailyVolumeUSD\n    reserveUSD\n    __typename\n  }\n}"}
 
 
 web3:
