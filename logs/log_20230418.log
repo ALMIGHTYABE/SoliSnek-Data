@@ -119,3 +119,9 @@
 [2023-04-18 22:10:41,150] 	INFO 	142 	bribe_data.py 	<module>() 	Bribe Data Ended
 [2023-04-18 23:09:47,580] 	INFO 	23 	id_data.py 	<module>() 	ID Data Started
 [2023-04-18 23:09:54,257] 	INFO 	74 	id_data.py 	<module>() 	ID Data Ended
+[2023-04-18 23:10:46,332] 	INFO 	26 	day_data.py 	<module>() 	Day Data Started
+[2023-04-18 23:10:49,408] 	INFO 	68 	day_data.py 	<module>() 	Day Data Ended
+[2023-04-18 23:10:50,281] 	INFO 	36 	pair_data.py 	<module>() 	Pair Data Started
+[2023-04-18 23:11:05,618] 	INFO 	101 	pair_data.py 	<module>() 	Pair Data Ended
+[2023-04-18 23:11:06,470] 	INFO 	38 	bribe_data.py 	<module>() 	Bribe Data Started
+[2023-04-18 23:11:16,056] 	ERROR 	144 	bribe_data.py 	<module>() 	Error occurred during Bribe Data process. Error: 'priceRoute'
