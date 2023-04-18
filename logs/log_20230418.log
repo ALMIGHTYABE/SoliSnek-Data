@@ -27,3 +27,9 @@
 [2023-04-18 12:20:16,120] 	INFO 	36 	pair_data.py 	<module>() 	Pair Data Started
 [2023-04-18 12:20:27,980] 	INFO 	101 	pair_data.py 	<module>() 	Pair Data Ended
 [2023-04-18 12:20:28,875] 	ERROR 	145 	bribe_data.py 	<module>() 	Error occurred during Bribe Data process. Error: 'api'
+[2023-04-18 12:22:04,485] 	INFO 	26 	day_data.py 	<module>() 	Day Data Started
+[2023-04-18 12:22:05,888] 	INFO 	68 	day_data.py 	<module>() 	Day Data Ended
+[2023-04-18 12:22:06,831] 	INFO 	36 	pair_data.py 	<module>() 	Pair Data Started
+[2023-04-18 12:22:13,396] 	INFO 	101 	pair_data.py 	<module>() 	Pair Data Ended
+[2023-04-18 12:22:14,272] 	INFO 	38 	bribe_data.py 	<module>() 	Bribe Data Started
+[2023-04-18 12:22:24,207] 	ERROR 	144 	bribe_data.py 	<module>() 	Error occurred during Bribe Data process. Error: No columns to parse from file
