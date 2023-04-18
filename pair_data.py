@@ -72,7 +72,7 @@ try:
     pairdata_df["fee %"] = pairdata_df["type"]
     pairdata_df["fee %"].replace({"vsAMM": 0.20, "ssAMM": 0.02}, inplace=True)
 
-    edit_index_1 = pairdata_df[(pairdata_df["address"] == "0x5b9A790E602aDFA8c127c480a511AB9f90807595") or (pairdata_df["address"] == "0x8d979AF11481E0BddfBB0cA7D6D8E20Ec6855f00") or (pairdata_df["address"] == "0xB46a84fa208F71cF598a1b50fdb5Bec3213B5845")].index
+    edit_index_1 = pairdata_df[(pairdata_df["address"] == "0x5b9A790E602aDFA8c127c480a511AB9f90807595") | (pairdata_df["address"] == "0x8d979AF11481E0BddfBB0cA7D6D8E20Ec6855f00") | (pairdata_df["address"] == "0xB46a84fa208F71cF598a1b50fdb5Bec3213B5845")].index
     pairdata_df.loc[edit_index_1, "fee %"] = 2
 
     pairdata_df["dailyVolumeUSD"] = pd.to_numeric(pairdata_df["dailyVolumeUSD"])
