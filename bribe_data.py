@@ -32,7 +32,6 @@ try:
     provider_url = config["web3"]["provider_url"]
     bribe_abi = config["web3"]["bribe_abi"]
     epoch_csv = config["files"]["epoch_data"]
-    price_api = config["api"]["price_api"]
     bribe_csv = config["files"]["bribe_data"]
 
     # Pulling Bribe Data
