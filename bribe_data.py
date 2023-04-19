@@ -72,9 +72,11 @@ try:
 
             rewardTokens = contract_instance.functions.getRewardTokens().call()
             rewardTokens = rewardTokens + ['0x152b9d0fdc40c096757f570a51e494bd4b943e50', '0x1c1cdf8928824dac36d84b3486d598b9799ba6c0', '0x1e3c6c53f9f60bf8aae0d7774c21fa6b1afddc57', '0x1fe70939c2cec8f31e8f7729442658586b469972', '0x221743dc9e954be4f86844649bf19b43d6f8366d', '0x2c69095d81305f1e3c6ed372336d407231624cea', '0x33f0a866d9024d44de2e0602f4c9b94755944b6f', '0x3d7b4f222e40f7dcddc3b3b396cd683b8d528396', '0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab', '0x50b7545627a5162f82a992c33b87adc75187b218', '0x5c09a9ce08c4b332ef1cc5f7cadb1158c32767ce', '0x5fe80d2cd054645b9419657d3d10d26391780a7b', '0x63d73d848b7f5142f11974188e9fe3f5de28f88c', '0x7f8d31a49212c62a11b6718aa0b612e129256553', '0x8901cb2e82cc95c01e42206f8d1f417fe53e7af0', '0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7', '0x9df4ac62f9e435dbcd85e06c990a7f0ea32739a9', '0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664', '0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7', '0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e', '0xc7198437980c041c805a1edcba50c1ce5db95118', '0xde1e704dae0b4051e80dabb26ab6ad6c12262da0', '0xde5ed76e7c05ec5e4572cfc88d1acea165109e44', '0xeeee99b35eb6af5e7d76dd846dbe4bcc0c60ca1d']
+            rewardTokens = [x.lower() for x in rewardTokens]
             rewardTokens = list(set(rewardTokens))
             
             for reward_addy in rewardTokens:
+                timestamp = w3.toChecksumAddress(timestamp)
                 rewarddata = contract_instance.functions.tokenTotalSupplyByPeriod(timestamp, reward_addy).call()
                 if rewarddata > 0:
                     bribes_list.append({"name": name, "bribes": rewarddata, "address": reward_addy})
