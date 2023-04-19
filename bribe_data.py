@@ -76,7 +76,7 @@ try:
             rewardTokens = list(set(rewardTokens))
             
             for reward_addy in rewardTokens:
-                timestamp = w3.toChecksumAddress(timestamp)
+                reward_addy = w3.toChecksumAddress(reward_addy)
                 rewarddata = contract_instance.functions.tokenTotalSupplyByPeriod(timestamp, reward_addy).call()
                 if rewarddata > 0:
                     bribes_list.append({"name": name, "bribes": rewarddata, "address": reward_addy})
