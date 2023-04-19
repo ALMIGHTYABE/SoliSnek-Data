@@ -114,3 +114,5 @@
 [2023-04-19 16:14:34,512] 	INFO 	101 	pair_data.py 	<module>() 	Pair Data Ended
 [2023-04-19 16:14:35,404] 	INFO 	38 	bribe_data.py 	<module>() 	Bribe Data Started
 [2023-04-19 16:14:50,998] 	ERROR 	144 	bribe_data.py 	<module>() 	Error occurred during Bribe Data process. Error: 'priceRoute'
+[2023-04-19 16:34:41,005] 	INFO 	38 	bribe_data.py 	<module>() 	Bribe Data Started
+[2023-04-19 16:34:41,441] 	ERROR 	145 	bribe_data.py 	<module>() 	Error occurred during Bribe Data process. Error: 'list' object has no attribute 'unique'
