@@ -83,7 +83,7 @@ try:
 
     bribe_df = pd.DataFrame(bribes_list)
     bribe_df["address"] = bribe_df["address"].apply(str.lower)
-
+    
     # Pull Prices
     pricelist = []
     for addy in bribe_df["address"].unique():
@@ -92,13 +92,17 @@ try:
             amount = "1000000"
         else:
             amount = "1000000000000000000"
-        response = requests.get(f"https://api.paraswap.io/prices/?srcToken={addy}&destToken=0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E&network=43114&partner=solisnek&srcDecimals=18&destDecimals=6&amount={amount}&maxImpact=100", timeout=60)
-        price = response.json()["priceRoute"]["srcUSD"]
-        decimals = response.json()["priceRoute"]["srcDecimals"]
-        pricelist.append({"name": name, "address": addy, "price": price, "decimals": decimals})
+        try:
+            response = requests.get(f"https://api.paraswap.io/prices/?srcToken={addy}&destToken=0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E&network=43114&partner=solisnek&srcDecimals=18&destDecimals=6&amount={amount}&maxImpact=100", timeout=60)
+            price = response.json()["priceRoute"]["srcUSD"]
+            decimals = response.json()["priceRoute"]["srcDecimals"]
+            pricelist.append({"name": name, "address": addy, "price": price, "decimals": decimals})
+        except:
+            pricelist.append({"name": name, "address": addy, "price": 0, "decimals": 0})
 
     price_df = pd.DataFrame(pricelist, columns=["address", "price", "decimals"])
-
+    print(price_df)
+    
     # Bribe Amounts
     bribe_df = bribe_df.merge(price_df[["address", "price", "decimals"]], on="address", how="left")
     bribe_df["bribe_amount"] = bribe_df["price"].astype("float") * bribe_df["bribes"]
