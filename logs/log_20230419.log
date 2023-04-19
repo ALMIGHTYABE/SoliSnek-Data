@@ -124,3 +124,5 @@
 [2023-04-19 16:44:47,429] 	ERROR 	148 	bribe_data.py 	<module>() 	Error occurred during Bribe Data process. Error: 'priceRoute'
 [2023-04-19 16:52:25,996] 	INFO 	38 	bribe_data.py 	<module>() 	Bribe Data Started
 [2023-04-19 16:53:26,507] 	INFO 	150 	bribe_data.py 	<module>() 	Bribe Data Ended
+[2023-04-19 16:58:43,818] 	INFO 	38 	bribe_data.py 	<module>() 	Bribe Data Started
+[2023-04-19 16:59:41,996] 	INFO 	152 	bribe_data.py 	<module>() 	Bribe Data Ended
