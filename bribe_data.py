@@ -88,8 +88,10 @@ try:
     pricelist = []
     for addy in bribe_df["address"].unique():
         print(addy)
-        if addy in ["0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7", "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e", "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664"]:
+        if addy in ["0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7", "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e", "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664", "0xc7198437980c041c805a1edcba50c1ce5db95118"]:
             amount = "1000000"
+        elif addy in ["0x50b7545627a5162f82a992c33b87adc75187b218", "0x152b9d0fdc40c096757f570a51e494bd4b943e50"]:
+            amount = "100000000"
         else:
             amount = "1000000000000000000"
         try:
