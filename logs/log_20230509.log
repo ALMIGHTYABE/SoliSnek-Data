@@ -8,3 +8,9 @@
 [2023-05-09 00:58:19,463] 	INFO 	152 	bribe_data.py 	<module>() 	Bribe Data Ended
 [2023-05-09 02:02:50,432] 	INFO 	23 	id_data.py 	<module>() 	ID Data Started
 [2023-05-09 02:02:58,775] 	INFO 	74 	id_data.py 	<module>() 	ID Data Ended
+[2023-05-09 02:04:14,411] 	INFO 	26 	day_data.py 	<module>() 	Day Data Started
+[2023-05-09 02:04:17,836] 	INFO 	68 	day_data.py 	<module>() 	Day Data Ended
+[2023-05-09 02:04:18,867] 	INFO 	36 	pair_data.py 	<module>() 	Pair Data Started
+[2023-05-09 02:04:38,642] 	INFO 	101 	pair_data.py 	<module>() 	Pair Data Ended
+[2023-05-09 02:04:39,679] 	INFO 	38 	bribe_data.py 	<module>() 	Bribe Data Started
+[2023-05-09 02:05:54,906] 	INFO 	152 	bribe_data.py 	<module>() 	Bribe Data Ended
