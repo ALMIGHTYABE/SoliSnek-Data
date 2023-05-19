@@ -90,3 +90,5 @@
 [2023-05-19 16:13:35,828] 	INFO 	101 	pair_data.py 	<module>() 	Pair Data Ended
 [2023-05-19 16:13:36,731] 	INFO 	38 	bribe_data.py 	<module>() 	Bribe Data Started
 [2023-05-19 16:15:01,776] 	INFO 	152 	bribe_data.py 	<module>() 	Bribe Data Ended
+[2023-05-19 17:08:37,012] 	INFO 	23 	id_data.py 	<module>() 	ID Data Started
+[2023-05-19 17:08:37,223] 	ERROR 	76 	id_data.py 	<module>() 	Error occurred during ID Data process. Error: 'data'
