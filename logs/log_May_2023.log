@@ -15,3 +15,5 @@
 [2023-05-20 18:13:32,195] 	INFO 	152 	bribe_data.py 	<module>() 	Bribe Data Ended
 [2023-05-20 19:07:12,594] 	INFO 	23 	id_data.py 	<module>() 	ID Data Started
 [2023-05-20 19:07:20,540] 	INFO 	74 	id_data.py 	<module>() 	ID Data Ended
+[2023-05-20 20:09:15,715] 	INFO 	23 	id_data.py 	<module>() 	ID Data Started
+[2023-05-20 20:09:24,141] 	INFO 	74 	id_data.py 	<module>() 	ID Data Ended
