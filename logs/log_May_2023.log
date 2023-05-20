@@ -1,1 +1,7 @@
 
+[2023-05-20 17:49:05,304] 	INFO 	26 	day_data.py 	<module>() 	Day Data Started
+[2023-05-20 17:49:08,906] 	INFO 	68 	day_data.py 	<module>() 	Day Data Ended
+[2023-05-20 17:49:09,850] 	INFO 	36 	pair_data.py 	<module>() 	Pair Data Started
+[2023-05-20 17:49:24,033] 	INFO 	101 	pair_data.py 	<module>() 	Pair Data Ended
+[2023-05-20 17:49:24,942] 	INFO 	38 	bribe_data.py 	<module>() 	Bribe Data Started
+[2023-05-20 17:50:41,655] 	INFO 	152 	bribe_data.py 	<module>() 	Bribe Data Ended
