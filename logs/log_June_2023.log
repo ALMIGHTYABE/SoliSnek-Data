@@ -134,3 +134,9 @@
 [2023-06-01 23:12:40,589] 	INFO 	152 	bribe_data.py 	<module>() 	Bribe Data Ended
 [2023-06-02 00:59:17,365] 	INFO 	23 	id_data.py 	<module>() 	ID Data Started
 [2023-06-02 00:59:26,133] 	INFO 	74 	id_data.py 	<module>() 	ID Data Ended
+[2023-06-02 01:04:33,196] 	INFO 	26 	day_data.py 	<module>() 	Day Data Started
+[2023-06-02 01:04:35,639] 	INFO 	68 	day_data.py 	<module>() 	Day Data Ended
+[2023-06-02 01:04:36,616] 	INFO 	36 	pair_data.py 	<module>() 	Pair Data Started
+[2023-06-02 01:05:01,584] 	INFO 	101 	pair_data.py 	<module>() 	Pair Data Ended
+[2023-06-02 01:05:02,517] 	INFO 	38 	bribe_data.py 	<module>() 	Bribe Data Started
+[2023-06-02 01:06:20,596] 	INFO 	152 	bribe_data.py 	<module>() 	Bribe Data Ended
