@@ -3834,3 +3834,9 @@
 [2023-06-27 07:14:08,653] 	INFO 	152 	bribe_data.py 	<module>() 	Bribe Data Ended
 [2023-06-27 08:14:18,649] 	INFO 	23 	id_data.py 	<module>() 	ID Data Started
 [2023-06-27 08:14:27,130] 	INFO 	74 	id_data.py 	<module>() 	ID Data Ended
+[2023-06-27 08:15:34,950] 	INFO 	26 	day_data.py 	<module>() 	Day Data Started
+[2023-06-27 08:18:41,300] 	ERROR 	70 	day_data.py 	<module>() 	Error occurred during Day Data process. Error: {'code': 503, 'message': 'The service is currently unavailable.', 'status': 'UNAVAILABLE'}
+[2023-06-27 08:18:42,537] 	INFO 	36 	pair_data.py 	<module>() 	Pair Data Started
+[2023-06-27 08:19:12,001] 	INFO 	101 	pair_data.py 	<module>() 	Pair Data Ended
+[2023-06-27 08:19:13,131] 	INFO 	38 	bribe_data.py 	<module>() 	Bribe Data Started
+[2023-06-27 08:21:29,235] 	INFO 	152 	bribe_data.py 	<module>() 	Bribe Data Ended
