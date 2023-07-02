@@ -174,3 +174,5 @@
 [2023-07-02 03:29:05,380] 	INFO 	101 	pair_data.py 	<module>() 	Pair Data Ended
 [2023-07-02 03:29:06,279] 	INFO 	38 	bribe_data.py 	<module>() 	Bribe Data Started
 [2023-07-02 03:30:23,879] 	INFO 	152 	bribe_data.py 	<module>() 	Bribe Data Ended
+[2023-07-02 04:12:23,686] 	INFO 	23 	id_data.py 	<module>() 	ID Data Started
+[2023-07-02 04:12:37,384] 	INFO 	74 	id_data.py 	<module>() 	ID Data Ended
